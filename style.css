@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #363530;
+}
+
+.header {
+  width: 60vw;
+  min-height: 50px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.header input {
+  width: 100%;
+  padding-left: 20px;
+  font-size: 2em;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: relative;
+}
+.header input:focus{
+  outline: 2px solid #76CC9D;
+}
+
+.plus {
+  border-radius: 5px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  right: 21vw;
+  color: #469C75;
+}
+
+.tasks-cont {
+  width: 57vw;
+  margin: auto;
+  padding: 10px;
+}
+
+.task {
+  background: #96221F;
+  min-height: 7vh;
+  font-family: 'Grandstander', cursive;
+  border-radius:10px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.task:not(:last-child){
+  margin-bottom: 5px;
+}
+
+.task span {
+  cursor: pointer;
+}
+.trash{
+  color:black;
+}
+
+/* BDBE60 */
